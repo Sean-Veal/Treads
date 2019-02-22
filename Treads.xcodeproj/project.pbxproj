@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		15B2B7DF22205B590021A32A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15B2B7DE22205B590021A32A /* AppDelegate.swift */; };
-		15B2B7E122205B590021A32A /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15B2B7E022205B590021A32A /* FirstViewController.swift */; };
+		15B2B7E122205B590021A32A /* BeginRunVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15B2B7E022205B590021A32A /* BeginRunVC.swift */; };
 		15B2B7E322205B590021A32A /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15B2B7E222205B590021A32A /* SecondViewController.swift */; };
 		15B2B7E622205B590021A32A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 15B2B7E422205B590021A32A /* Main.storyboard */; };
 		15B2B7E822205B5A0021A32A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 15B2B7E722205B5A0021A32A /* Assets.xcassets */; };
@@ -18,7 +18,7 @@
 /* Begin PBXFileReference section */
 		15B2B7DB22205B590021A32A /* Treads.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Treads.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		15B2B7DE22205B590021A32A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		15B2B7E022205B590021A32A /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		15B2B7E022205B590021A32A /* BeginRunVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeginRunVC.swift; sourceTree = "<group>"; };
 		15B2B7E222205B590021A32A /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		15B2B7E522205B590021A32A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		15B2B7E722205B5A0021A32A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -56,8 +56,13 @@
 		15B2B7DD22205B590021A32A /* Treads */ = {
 			isa = PBXGroup;
 			children = (
+				15B2B7F2222079280021A32A /* Util */,
+				15B2B7F5222079580021A32A /* Model */,
+				15B2B7F42220794B0021A32A /* View */,
+				15B2B7F3222079400021A32A /* Controller */,
+				15B2B7F6222079600021A32A /* Extensions */,
 				15B2B7DE22205B590021A32A /* AppDelegate.swift */,
-				15B2B7E022205B590021A32A /* FirstViewController.swift */,
+				15B2B7E022205B590021A32A /* BeginRunVC.swift */,
 				15B2B7E222205B590021A32A /* SecondViewController.swift */,
 				15B2B7E422205B590021A32A /* Main.storyboard */,
 				15B2B7E722205B5A0021A32A /* Assets.xcassets */,
@@ -65,6 +70,41 @@
 				15B2B7EC22205B5A0021A32A /* Info.plist */,
 			);
 			path = Treads;
+			sourceTree = "<group>";
+		};
+		15B2B7F2222079280021A32A /* Util */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
+		15B2B7F3222079400021A32A /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		15B2B7F42220794B0021A32A /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		15B2B7F5222079580021A32A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		15B2B7F6222079600021A32A /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -140,7 +180,7 @@
 			files = (
 				15B2B7E322205B590021A32A /* SecondViewController.swift in Sources */,
 				15B2B7DF22205B590021A32A /* AppDelegate.swift in Sources */,
-				15B2B7E122205B590021A32A /* FirstViewController.swift in Sources */,
+				15B2B7E122205B590021A32A /* BeginRunVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
